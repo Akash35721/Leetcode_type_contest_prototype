@@ -6,12 +6,12 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'f9a8a8f7c9e0d9a7f8d6c9c8d7b6a5b4'   # will put this in env variable later <<======================
 socketio = SocketIO(app, cors_allowed_origins="*")
 
-# --- NO CHANGES TO THIS PART ---
+
 match_state = {
     'winner': None
 }
-CORRECT_ANSWER_STRING = "return 42"
-# --- END NO CHANGES ---
+CORRECT_ANSWER_STRING = "wellwell"
+
 
 
 @app.route('/')
